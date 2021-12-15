@@ -6,6 +6,7 @@ Library           String
 #Library           MyLibrary.py
 #Library           LoginLibrary.py
 Library           Collections
+Force Tags        workshop
 
 *** Variables ***
 ${MESSAGE}        Hello, world!
@@ -33,6 +34,7 @@ Valid Login
     [Teardown]    Close Browser
 
 Invalid Login
+    [Tags]    login
     Open Login Page
     Input Username    ${USER}
     Input Passwd    wrong_pass
@@ -49,7 +51,7 @@ Variables
     ${name1}=    Several Args Keyword    Jose    Pedro
     ${name2}=    Several Args Keyword    Jose
     Several Args As List Keyword    Jose    Pedro    Marta
-    my_resource_keyword
+    #my_resource_keyword
 
 String
     ${my_string}=    Set Variable    Hello World!
