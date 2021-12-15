@@ -40,7 +40,7 @@ Invalid Login
     Input Passwd    wrong_pass
     Submit Credentials
     Login Not Successful
-    Several Args Keyword
+    Several Args Keyword    test
     [Teardown]    Close Browser
 
 Variables
