@@ -9,7 +9,7 @@ Library           Collections
 
 *** Variables ***
 ${MESSAGE}        Hello, world!
-${URL}    www.saucedemo.com
+${URL}    https://www.saucedemo.com/
 ${USER}    standard_user
 ${PASSWD}       secret_sauce
 
