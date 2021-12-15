@@ -17,7 +17,7 @@ ${PASSWD}       secret_sauce
 *** Test Cases ***
 My first test
     [Tags]    first
-    Should Be Equal    ${MESSAGE}    Hello, world!
+    Should Be Equal    ${MESSAGE}    Hello, world
 
 My 2nd test
     Log    ${MESSAGE}
