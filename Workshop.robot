@@ -169,7 +169,7 @@ My keyword
     Directory Should Exist    ${path}
 
 Open Login Page
-    Open Browser    ${URL}   firefox
+    Open Browser    ${URL}   ${BROWSER}
 
 Input Username
     [Arguments]    ${name}
